@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <preConditions>
+            <dbms type="sybase"/>
+    </preConditions>
+    
+    <!--<includeAll path="changelogs\\sybase\\complete\\rbm" filter="aim.config.IncludeTablesFilter"  />-->
+    <!--<includeAll path="changelogs\\sybase\\complete\\rbm" filter="aim.config.IncludeConstraintsFilter"  />-->
+    <!--<includeAll path="changelogs\\sybase\\complete\\rbm" filter="aim.config.IncludeIndexesFilter"  />-->
+    <!--<includeAll path="changelogs\\sybase\\complete\\sub3" filter="aim.config.IncludeProcsFilter"  />-->
+    <!--<includeAll path="changelogs\\sybase\\complete\\rbm" filter="aim.config.IncludeMviewsFilter"  />-->
+    <!--<includeAll path="changelogs\\sybase\\complete\\rbm" filter="aim.config.IncludeViewsFilter"  />-->
+    <!--<includeAll path="changelogs\\sybase\\complete\\rbm" filter="aim.config.IncludeRolesFilter"  />-->
+    <!--<includeAll path="changelogs\\sybase\\complete\\rbm" filter="aim.config.IncludeDmlFilter"  />-->
+    <!--<includeAll path="changelogs\\sybase\\complete\\rbm" filter="aim.config.IncludeUsersFilter"  />-->
+    <!--<includeAll path="changelogs\\sybase\\complete\\rbm" filter="aim.config.IncludeGrantsFilter"  />-->
+    <!--<includeAll path="changelogs\\sybase\\complete\\rbm" filter="aim.config.IncludeMiscFilter"  />-->
+    <!--<includeAll path="changelogs\\sybase\\complete\\rbm" filter="aim.config.IncludeOtherFilter"  />-->
+    <includeAll path="changelogs\\sybase\\complete\\sub"  />
+
+</databaseChangeLog>
